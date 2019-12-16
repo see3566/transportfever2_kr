@@ -45,7 +45,7 @@ msgid "%1% - %2%"
 msgstr "%1% - %2%"
 
 msgid "%1% Annex"
-msgstr "%1% 별관"
+msgstr "%1% 부속"
 
 msgid "%1% Branch"
 msgstr "%1% 지점"
@@ -60,7 +60,7 @@ msgid "%1% East"
 msgstr "%1% 동"
 
 msgid "%1% Exchange"
-msgstr "%1% 교환"
+msgstr "%1% 익스체인지"
 
 msgid "%1% Halt"
 msgstr "%1% 정지"
@@ -69,7 +69,7 @@ msgid "%1% North"
 msgstr "%1% 북"
 
 msgid "%1% Sidings"
-msgstr "%1% 측선"
+msgstr "%1% 사이딩"
 
 msgid "%1% Signal #%2%"
 msgstr "%1% 신호 #%2%"
@@ -123,7 +123,7 @@ msgstr[0] "%1%의 산업"
 msgstr[1] "%1%의 산업"
 
 msgid "%1% kN"
-msgstr "%1% 노트"
+msgstr "%1% kN"
 
 msgid "%1% kW"
 msgstr "%1% kW"
@@ -192,8 +192,8 @@ msgstr "%1% 초"
 
 msgid "%1% signal will be removed"
 msgid_plural "%1% signals will be removed"
-msgstr[0] "%1% 개의 신호를 삭제합니다"
-msgstr[1] "%1% 개의 신호를 삭제합니다"
+msgstr[0] "%1% 개의 신호기를 삭제합니다"
+msgstr[1] "%1% 개의 신호기를 삭제합니다"
 
 msgid "%1% stop will be removed"
 msgid_plural "%1% stops will be removed"
@@ -234,7 +234,7 @@ msgid "%1%%% of %2%"
 msgstr "%2% 의 %1%%%"
 
 msgid "%1%%% of lifetime (%2% remaining)"
-msgstr "차량 수명 %1%%% (%2% 남음)"
+msgstr "내구연한 %1%%% (%2% 남음)"
 
 msgid "%1%%2%%%"
 msgstr "%1%%2%%%"
@@ -267,7 +267,7 @@ msgid "%1%: %2%x"
 msgstr "%1%: %2%x"
 
 msgid "%1%: not enough power!"
-msgstr "%1%:힘이 부족합니다!"
+msgstr "%1%:이 부족합니다!"
 
 msgid "%1%m to %2%m"
 msgstr "%1%m 에서 %2%m"
@@ -358,7 +358,7 @@ msgid "%d point(s) for maximum vehicle age"
 msgstr "가장 오래된 차량으로 %d포인트"
 
 msgid "%s overlength: travel time is %d s, %d s allowed!"
-msgstr "%s의 길이가 과잉: 이동 시간은 %d초, %d초가 허용되어 있습니다!"
+msgstr "%s의 길이가 너무 깁니다: 이동 시간은 %d초, %d초로 허용됩니다"
 
 msgid "(%1% compartment)"
 msgid_plural "(%1% compartments)"
@@ -459,7 +459,7 @@ msgid "A new Steam Workshop item will be created"
 msgstr "새로운 Steam 창작마당 아이템이 작성됩니다"
 
 msgid "A new vehicle is available!"
-msgstr "신차량을 이용할 수 있습니다!"
+msgstr "새로운 차량을 이용할 수 있습니다!"
 
 msgid "A one-way street can't have stops or waypoints on both sides"
 msgstr "정거장이나 웨이포인트를 양쪽에 설치할 수 없는 일방통행 도로"
@@ -469,33 +469,33 @@ msgid ""
 "electrified. The vehicle requires electrification. Use the electrification "
 "tool to modify the sections."
 msgstr ""
-"경로를 찾았지만, 일부 또는 많은 부분이 전력화가 되지 않았습니다. 차량에는 "
-"전기의 공급이 필요합니다. 전력화 도구를 사용하여 길을 수정합시다."
+"경로중에 전철화구간이 누락되었습니다. 차량에는 전력공급이 필요합니다."
+"전철화 도구를 사용하여 전력선을 설치하십시오."
 
 msgid ""
 "A path has been found, but one or more sections of the path do not have tram "
 "tracks. The vehicle requires tram tracks. Use the tram track tool to modify "
 "the sections."
 msgstr ""
-"경로를 찾았지만, 일부 또는 많은 부분에 노면전차 선로가 없습니다. 차량에는 노면전차"
-"의 선로가 필요합니다. 노면전차 선로 툴을 사용하여 길을 수정합시다."
+"트램선로가누락되었습니다. 차량에는 트램선로가 필요합니다."
+"트램선로 도구를 사용하여 트램선로를 설치하십시오."
 
 msgid ""
 "A path has been found, but only small aircraft are allowed on this path. "
 "Consider using small aircraft or large airports."
 msgstr ""
-"경로를 찾았지만, 여기에 넣을 수 있는 것은 소형 비행기뿐입니다. 소형 비행기로 선택"
-"하거나, 큰 공항을 사용합시다."
+"경로중에 대형기 진입이 불가능한 구간이 있습니다."
+"소형 항공기만이 경로를 이용할 수 있습니다."
 
 msgid ""
 "A path has been found, but only small ships are allowed on this path. "
 "Consider using small ships or large docks."
 msgstr ""
-"경로를 찾았지만, 여기에 넣을 수 있는 것은 소형 배 뿐입니다. 소형 배로 하거나, 큰 항"
-"구를 사용합시다."
+"경로중에 대형선 진입이 불가능한 구간이 있습니다."
+"소형선만이 경로를 이용할 수 있습니다."
 
 msgid "A station appears consecutively twice"
-msgstr "역이 두 연속 출현하고 있습니다"
+msgstr "기/종점에 같은역이 중복선택되었습니다"
 
 msgid "Accept!"
 msgstr "승낙!"
@@ -522,10 +522,10 @@ msgid "Accumulate a fortune of 100 millions (without debt)."
 msgstr "부채 없이 1억 벌기."
 
 msgid "Achievement earned:"
-msgstr "획득한 실적:"
+msgstr "획득한 도전과제:"
 
 msgid "Achievements"
-msgstr "실적"
+msgstr "도전과제"
 
 msgid ""
 "Achievements cannot be earned in this game because mods are or have been "
@@ -597,7 +597,7 @@ msgid "Ambient occlusion (SSAO)"
 msgstr "셰이더 (SSAO)"
 
 msgid "American vehicles"
-msgstr "미국 차량"
+msgstr "미국스타일 차량"
 
 msgid ""
 "An Intel HD Graphics chip is active. For best performance, make sure to:"
@@ -608,13 +608,13 @@ msgid "Anti-aliasing"
 msgstr "안티앨리어싱"
 
 msgid "Antique"
-msgstr "안티크"
+msgstr "앤티크"
 
 msgid "Apply"
 msgstr "적용"
 
 msgid "Approximate annual throughput per station"
-msgstr "역별 연간 처리 개산량"
+msgstr "역별 연간 처리량"
 
 msgid "Art"
 msgstr "아트"
@@ -626,7 +626,7 @@ msgid "Asia"
 msgstr "아시아"
 
 msgid "Asian vehicles"
-msgstr "아시아 차량"
+msgstr "아시아스타일 차량"
 
 msgid "Assets"
 msgstr "어셋"
@@ -685,7 +685,7 @@ msgstr "주거용 건물에 대한 평균 배출량: %1%"
 msgid ""
 "Average number of shoppings facilities and jobs the residents of %1% can "
 "reach"
-msgstr "%1%의 주민들이 이용 가능한 상업 시설과 일의 평균 수"
+msgstr "%1%의 주민들에게 제공되는 상업 시설과 직업의 평균값"
 
 msgid "BONUS TASKS"
 msgstr "보너스 임무"
@@ -712,13 +712,13 @@ msgid "Big aircraft"
 msgstr "대형 항공기"
 
 msgid "Big aircraft is incompatible with small airport"
-msgstr "대형 항공기는 작은 공항에 대응할 수 없습니다"
+msgstr "대형 항공기는 작은 공항에 착륙할 수 없습니다"
 
 msgid "Big ship"
 msgstr "대형 선박"
 
 msgid "Big ship is incompatible with small harbour"
-msgstr "대형 선박은 작은 항구에 대응할 수 없습니다"
+msgstr "대형 선박은 작은 항구에 접안할 수 없습니다"
 
 msgid "Big spender"
 msgstr "통 큰 배"
@@ -727,7 +727,7 @@ msgid "Bit depth must be 1, 8 or 16."
 msgstr "비트 심도는 1,8,16의 하나로 주세요."
 
 msgid "Bob Ross"
-msgstr "보브 로스"
+msgstr "밥 로스"
 
 msgid "Bonus task completed"
 msgstr "보너스 작업 클리어"
@@ -754,10 +754,10 @@ msgid "Build"
 msgstr "건설"
 
 msgid "Build a bus stop."
-msgstr "버스 정류장을 만든다."
+msgstr "버스 정류장 건설."
 
 msgid "Build a passenger train station."
-msgstr "여객 철도 역을 만든다."
+msgstr "여객 철도역 건설."
 
 msgid "Build a town"
 msgstr "마을 건설"
@@ -766,10 +766,10 @@ msgid "Build a train line with at least 10 trains in motion."
 msgstr "최소 10 개의 기차가 움직이는 기차 노선을 만드십시오"
 
 msgid "Build date"
-msgstr "건설일"
+msgstr "준공일"
 
 msgid "Build high bridges over rivers so that ships can pass under."
-msgstr "강 위에 높은 다리를 만들어서 밑을 배가 지나갈 수 있도록 합시다."
+msgstr "배가 지나다닐만큼 다리를 높이세요."
 
 msgid ""
 "Build one line containing at least one of every passenger road vehicle that "
